@@ -18,8 +18,8 @@ function playRound(playerSelection, computerSelection) {
             else if(computerSelection=="Scissor"){win=true;}break;
     }
     return !win?{message:`You Lose! ${computerSelection} beats ${playerSelection}!`,winner:"comp"}:{message:`You Win! ${playerSelection} beats ${computerSelection}!`,winner:"player"};
-  }
-  function game(){
+}
+function game(){
     let compPoints=0;
     let playerPoints=0;
     for (let i = 0; i < 5; i++) {
@@ -31,4 +31,4 @@ function playRound(playerSelection, computerSelection) {
         console.log(gameplay.message);
      }
      console.log(`Finished! ${playerPoints}(You) : ${compPoints}(Computer)!`);
-  }
+}

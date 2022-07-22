@@ -10,13 +10,51 @@
         <title>Rock Paper Scissors Project</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <header>
+            <h1>Rock Paper Scissor - Game</h1>
+        </header>
+        <main>
+            <div id="choicewrapper">
+            <h2>Your Choice</h2>
+            <div id="choice">
+                <button id="paper">Paper</button>
+                <button id="scissor">Scissor</button>
+                <button id="rock">Rock</button>
+            </div>
+        </div>
+            <div id="result">
+            </div>
+       
+            <div id="scorewrapper">
+            <h2>Score</h2>
+            <div id="score">  
+                <div id="player">
+                    <h3>Player: <span id="player-score"></span> Points</h3>
+                </div>
+                <div id="Computer">
+                    <h3>Computer: <span id="computer-score"></span> Points</h3>
+                </div>
+            </div>
+        </div>
+            <div id="endresult">
+            </div>
+            <div id="play-again">
+                Do you want to play again?
+                <button id="yes">Yes</button>
+            </div>
+        </main>
+        <footer>
+            Designed by Christian Schuster
+        </footer>
         <script src="./script.js" async defer></script>
     </body>
 </html>

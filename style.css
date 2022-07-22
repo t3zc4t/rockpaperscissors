@@ -1,0 +1,19 @@
+* {box-sizing: border-box;margin:0;padding:0;}
+body{display:flex;flex-direction:column;justify-content:space-between;height:100vh;font-family: 'Roboto', sans-serif;}
+header{text-align:center;flex:1 0 auto;background-color:#1B4332;color:#ffffff;display:flex;justify-content:center;align-items:center;color:#D8F3DC;padding:10px;}
+main {text-align:center;flex:4 0 auto;background-color:#B7E4C7;color:#081C15}
+#result{height:100px;flex:1 0 auto;display:flex;align-items:center;justify-content:center}
+#score{display:flex;justify-content:center;gap:10vw;flex-wrap:wrap;}
+#scorewrapper{background-color:#1B4332;padding:25px;color:#D8F3DC;}
+#scorewrapper h2{margin-bottom:15px}
+#endresult{height:50px;margin-top:20px;}
+#choicewrapper{display:flex;flex-direction:column;justify-content:center;padding-top:50px;flex:2 0 auto;}
+#choicewrapper h2{padding-bottom:15px;}
+#choice{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;}
+main button{padding:10px 30px;background-color:#2D6A4F;color:#95D5B2;border:1px solid #2D6A4F;border-radius:25px;}
+#play-again{padding:20px;}
+#play-again p{padding-bottom:20px;}
+#yes{background-color:#1B4332}
+#yes:hover{background-color:#2D6A4F}
+main button:hover{cursor:pointer;background-color:#1B4332}
+footer{background-color:#081C15;color:#ffffff;flex:1 0 auto;height:5vh;display:flex;justify-content:center;align-items:center;color:#D8F3DC;padding:20px;}
